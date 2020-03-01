@@ -1,0 +1,13 @@
+## HW Docker-2
+ - Установлен Docker
+ - Запущен контейнер hello-world
+ - Опробованы команды docker ps, run, start, attach, exec, inspect, images, commit
+ - Вывод команды docker commit сохранен в файл docker-1.log
+ - Опробованы команды kill, stop, system df, rm, rmi
+ - Создан проект docker в gce
+ - Создан docker host с помощью docker-machine
+ - Создан Dockerfile для старта сервиса reddit
+ - Собран образ на базе Dockerfile
+ - Создано правило фаервола для доступа к сервису, запущенному в контейнере
+ - Создана учетка в docker hub, залит образ контейнера korbind/otus-reddit:1.0
+ - Запущен контейнер korbind/otus-reddit:1.0 на локальной машине с docker hub
